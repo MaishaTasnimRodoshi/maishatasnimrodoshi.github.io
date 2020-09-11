@@ -1,3 +1,7 @@
+//WOW initialized
+new WOW().init();
+
+//Gallary
 let modalId = $("#image-gallery");
 
 $(document).ready(function () {

@@ -15,10 +15,12 @@
       integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/animate.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Maisha Tasnim</title>
   </head>
   <body>
+    <!-- HEADER -->
     <div
       id=" parallax-window"
       data-parallax="scroll"
@@ -31,11 +33,18 @@
       >
         <div class="">
           <div class="text-center">
-            <img src="img/logo.jpg" alt="Maisha Tasnim" class="logoImgHeader" />
+            <img
+              src="img/logo.jpg"
+              alt="Maisha Tasnim"
+              class="logoImgHeader wow rotateInDownRight"
+              data-wow-delay=".3s"
+            />
           </div>
           <div class="text-light text-center">
-            <h1 class="display-4 font-weight-normal">Maisha Tasnim</h1>
-            <h4 class="font-weight-normal">
+            <h1 class="display-4 font-weight-normal wow fadeInDown">
+              Maisha Tasnim
+            </h1>
+            <h4 class="font-weight-normal wow fadeInDown" data-wow-delay=".3s">
               <i class="fas fa-briefcase"></i> works at
               <a
                 class="text-light font-weight-bolder"
@@ -43,20 +52,22 @@
                 >TubeLight</a
               >
             </h4>
-            <h4 class="font-weight-normal">
+            <h4 class="font-weight-normal wow fadeInDown" data-wow-delay=".5s">
               <i class="fas fa-graduation-cap"></i> Student at BAUST
             </h4>
-            <h4 class="font-weight-normal">
+            <h4 class="font-weight-normal wow fadeInDown" data-wow-delay=".7s">
               <i class="fas fa-map-marker-alt"></i> Lives in Rangpur, Bangladesh
             </h4>
           </div>
         </div>
       </div>
     </div>
+    <!-- HEADER END -->
+    <!-- ABOUT SECTION -->
     <section class="about-us py-5" id="about-us">
       <div class="container mt-5">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 wow fadeInLeft" data-wow-delay=".3s">
             <h1 class="text-danger">Welcome!</h1>
             <h2>Know More About Me</h2>
             <div class="border-bottom mb-4"></div>
@@ -71,23 +82,88 @@
               make all my dreams came true through out the design I make. This
               work makes me happy and I am passionate about my work.
             </p>
-            <button type="button" class="btn btn-danger" onclick="easyScroll('#workList',1500)">My Works</button>
+            <button
+              type="button"
+              class="btn btn-danger"
+              onclick="easyScroll('#workList',1500)"
+            >
+              My Works
+            </button>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 wow fadeInRight" data-wow-delay=".3s">
             <img src="img/graphics.png" alt="" />
           </div>
         </div>
       </div>
     </section>
+    <!-- ABOUT SECTION END-->
+    <!-- FEATURES -->
+    <div
+      id=" parallax-window"
+      data-parallax="scroll"
+      data-speed=".5"
+      data-image-src="img/bg2.jpg"
+      class="py-5"
+    >
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-4 col-sm-6 wow fadeInLeft" data-wow-delay=".1s">
+            <h3 class="text-center text-light">Microsoft Office</h3>
+            <div class="progress blue p-2">
+              <span class="progress-left">
+                <span class="progress-bar"></span>
+              </span>
+              <span class="progress-right">
+                <span class="progress-bar"></span>
+              </span>
+              <div class="progress-value">90%</div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
+            <h3 class="text-center text-light">Voice Over</h3>
+            <div class="progress yellow p-2">
+              <span class="progress-left">
+                <span class="progress-bar"></span>
+              </span>
+              <span class="progress-right">
+                <span class="progress-bar"></span>
+              </span>
+              <div class="progress-value">75%</div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 wow fadeInRight" data-wow-delay=".5s">
+            <h3 class="text-center text-light">Adobe Photoshop</h3>
+            <div class="progress green p-2">
+              <span class="progress-left">
+                <span class="progress-bar"></span>
+              </span>
+              <span class="progress-right">
+                <span class="progress-bar"></span>
+              </span>
+              <div class="progress-value">85%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FEATURES END -->
+    <!-- SERVICES SECTION -->
     <div class="section-block-grey">
       <div class="container">
-        <div class="section-heading center-holder">
+        <div
+          class="section-heading center-holder wow fadeInDown"
+          data-wow-delay=".3s"
+        >
           <h3 class="text-danger">Doing the right thing at the right time</h3>
           <div class="section-heading-line"></div>
           <p>I love my work and I am passionate about it.</p>
         </div>
         <div class="row mt-60">
-          <div class="col-md-4 col-sm-12 col-12">
+          <div
+            class="col-md-4 col-sm-12 col-12 wow fadeInLeft"
+            data-wow-delay=".3s"
+          >
             <div class="serv-section-2">
               <div class="serv-section-2-icon"><i class="fas fa-gem"></i></div>
               <div class="serv-section-desc">
@@ -97,7 +173,10 @@
               <div class="section-heading-line-left"></div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-12 col-12">
+          <div
+            class="col-md-4 col-sm-12 col-12 wow fadeInDown"
+            data-wow-delay=".5s"
+          >
             <div class="serv-section-2 serv-section-2-act">
               <div class="serv-section-2-icon serv-section-2-icon-act">
                 <i class="fas fa-images"></i>
@@ -109,7 +188,10 @@
               <div class="section-heading-line-left"></div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-12 col-12">
+          <div
+            class="col-md-4 col-sm-12 col-12 wow fadeInRight"
+            data-wow-delay=".7s"
+          >
             <div class="serv-section-2">
               <div class="serv-section-2-icon">
                 <i class="fas fa-signature"></i>
@@ -122,7 +204,7 @@
             </div>
           </div>
         </div>
-        <div class="row mt-0 mt-md-4">
+        <div class="row mt-0 mt-md-4 wow fadeInLeft" data-wow-delay=".5s">
           <div class="col-md-4 col-sm-12 col-12">
             <div class="serv-section-2">
               <div class="serv-section-2-icon">
@@ -135,7 +217,10 @@
               <div class="section-heading-line-left"></div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-12 col-12">
+          <div
+            class="col-md-4 col-sm-12 col-12 wow fadeInDown"
+            data-wow-delay=".8s"
+          >
             <div class="serv-section-2 serv-section-2-act">
               <div class="serv-section-2-icon serv-section-2-icon-act">
                 <i class="fas fa-file-invoice"></i>
@@ -147,7 +232,10 @@
               <div class="section-heading-line-left"></div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-12 col-12">
+          <div
+            class="col-md-4 col-sm-12 col-12 wow fadeInRight"
+            data-wow-delay="1.1s"
+          >
             <div class="serv-section-2">
               <div class="serv-section-2-icon">
                 <i class="fas fa-file-powerpoint"></i>
@@ -162,17 +250,18 @@
         </div>
       </div>
     </div>
+    <!-- SERVICES SECTION END -->
     <!-- GALLERY -->
     <div class="container py-5">
       <div class="row">
-        <div class="col-12 text-center">
-          <h1 class="text-danger" >My works</h1>
+        <div class="col-12 text-center wow fadeInLeft" data-wow-delay=".5s">
+          <h1 class="text-danger">My works</h1>
 
           <div class="border-bottom mb-4"></div>
         </div>
       </div>
       <div class="row">
-        <div class="row">
+        <div class="row wow fadeInLeft" data-wow-delay=".7s">
           <div class="col-lg-3 col-md-4 col-xs-6 thumb">
             <a
               class="thumbnail"
@@ -296,7 +385,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="contact-caption">
+            <div class="contact-caption wow fadeInLeft" data-wow-delay=".2s">
               <h1 class="contact-title">Don’t Be Shy, Talk to Me.</h1>
               <p class="contact-text">
                 Have any project for me! feel free to get in touch.
@@ -306,7 +395,10 @@
           <div
             class="col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-12 col-xs-12"
           >
-            <div class="contact-form shadow shadow-sm">
+            <div
+              class="contact-form shadow shadow-sm wow fadeInRight"
+              data-wow-delay=".5s"
+            >
               <h3 class="contact-info-title">Contact Me</h3>
               <div class="row">
                 <form class="col-12">
@@ -334,7 +426,7 @@
                       />
                     </div>
                   </div>
-                  
+
                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb20">
                     <div class="form-group">
                       <label
@@ -358,11 +450,18 @@
             </div>
           </div>
         </div>
-        <div class="lead text-light text-center fontAuth">
-          &copy; 2020 by <a href="https://tanvirmahin.netlify.app/" class="text-light font-weight-normal">Tanvir Mahin</a>
+        <div
+          class="lead text-light text-center fontAuth wow fadeInDown"
+          data-wow-delay=".2s"
+        >
+          &copy; 2020 by
+          <a
+            href="https://tanvirmahin.netlify.app/"
+            class="text-light font-weight-normal"
+            >Tanvir Mahin</a
+          >
+        </div>
       </div>
-      </div>
-      
     </div>
     <!-- CONTACT END -->
 
@@ -379,6 +478,11 @@
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+      integrity="sha256-z6FznuNG1jo9PP3/jBjL6P3tvLMtSwiVAowZPOgo56U="
       crossorigin="anonymous"
     ></script>
     <script src="js/parallax.min.js"></script>
