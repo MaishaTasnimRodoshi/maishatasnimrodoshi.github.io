@@ -6,3 +6,9 @@
   3723003,
   document.body || document.documentElement
 );
+
+setTimeout(() => {
+  $(function () {
+    $(".logoImgHeader").trigger("click");
+  });
+}, 5000);
